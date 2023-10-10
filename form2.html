@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>location</title>
+  <style>
+    body{
+      background-color: rgb(198, 228, 255);}
+
+    button{
+      background-color: blue;
+      color: beige;
+      border-style: solid;
+      border: none;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://www.google.com/maps/@12.719555,77.8024164,15z?entry=ttu" target="_blank"> <button> 
+    use my current location
+   </button>
+  </a>
+   <br><br>
+  <div>
+    <form >
+      <div >
+        <input type="text" placeholder="name" required>
+        <input type="number" placeholder="10-digit number" min="6000000001" max="9999999999" required>
+      </div>
+      <br><br>
+      <div>
+        <input type="text" placeholder="pin code">
+        <input class="locality" type="text" placeholder="locality" required>
+      </div>
+      <br><br>
+      <div>
+        <textarea class="address" placeholder="address(Area and Street)" cols="50" rows="10"></textarea>
+      </div>
+      <br><br>
+      <div>
+        <input type="text" placeholder="city/district/town">
+        <select name="" id="">
+          <option value="">--select state--</option>
+          <option value="">goa</option>
+          <option value="">punjab</option>
+          <option value="">assam</option>
+        </select>
+      </div><br><br>
+      <div>
+          <input type="text" placeholder="landmark(optional)">
+          <input  type="text" placeholder="Alternate phone(optional)" disabled>
+      </div>
+      <div>
+        <label >address type</label>
+      </div><br>
+      <div>
+        <input type="radio" name="ig">Home
+        <input type="radio"name="ig">Work
+      </div>
+      <div style="display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;">
+      <input style="background-color: blue;
+      color: white;" type="submit" value="save">
+      <input type="reset"value="cancel">
+
+      </div>
+    </form>
+  </div>
+</body>
+</html>

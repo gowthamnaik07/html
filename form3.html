@@ -1,19 +1,46 @@
 <html>
     <head>
+     <style>
+        .box{
+            width: 400px;
+        }
+        .box2{
+            margin-left: 110px;
+        }
+     </style>
         
     </head>
         <body>
          <form>
             <h1> Shipping Address </h1>
+            <hr>
             <label> Phone Number * </label>
-            <input type="number" placeholder="123455"<br>
+            <input type="text" placeholder="123455"><br>
             <br><br>
             <label> Company</label>
-            <input type="text" <br>
+            <input type="text"><br>
             <br><br>
-            <label> Country </label>
-            <input type=""
-            <option value=" Australia"></option>
+            <label> Country * </label>
+            <input type="number" placeholder="Australia"><br>
+            <br><br>
+            <lable > Address Finder </lable>
+            <input class="box" type="text" placeholder="Victoria Street, Richmond VIC, Australia"><br>
+            <br><br>
+            <label> Street Address * </label>
+            <input type="Victoria Street" ><br>
+            <br><br>
+            <input  class="box2" type="text"><br>
+            <br><br>
+            <label> Suburb *</label>
+            <input type="text" placeholder="Richmond"><br>
+            <br><br>
+            <label> Zip/postal Code * </label>
+            <input type="text" placeholder="3212"><br>
+            <br><br>
+            <input type="checkbox"> <label> Save in address book</label><br>
+            <hr>
+            <input type="submit" value="cancel">
+            <input type="submit" value="save address">
 
 
             
